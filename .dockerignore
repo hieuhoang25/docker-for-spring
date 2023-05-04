@@ -1,0 +1,23 @@
+# Exclude Gradle cache directories
+.gradle/
+**/build/
+**/out/
+**/*.log
+
+# Exclude editor and IDE files
+.idea/
+.vscode/
+*.iml
+
+# Exclude test files
+**/test/
+**/tests/
+**/*Test.java
+**/*Tests.java
+**/*Test.kt
+**/*Tests.kt
+
+# Exclude other unnecessary files
+*.class
+*.jar
+*.war
